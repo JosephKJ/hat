@@ -160,7 +160,7 @@ for t,ncla in taskcla:
 
     # Save
     print('Save at '+args.output)
-    np.savetxt(args.output,acc,'%.4f')
+    # np.savetxt(args.output,acc,'%.4f')
 
 # Done
 print('*'*100)
